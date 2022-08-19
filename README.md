@@ -4,5 +4,4 @@ This is my playwright framework where I explore and test Playwright capabilities
 
 Test websites:
 
-1. http://automationpractice.com/index.php
-2. https://www.saucedemo.com/
+1. https://parabank.parasoft.com/
