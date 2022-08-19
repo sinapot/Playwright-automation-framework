@@ -4,6 +4,8 @@ This is my playwright framework where I explore and test Playwright capabilities
 
 This framework follow Page Object Model pattern as recommended in official Playwright documentation.
 
+Github Actions are used as Continous Integration for this framework
+
 Test websites:
 
 1. https://parabank.parasoft.com/
