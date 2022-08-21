@@ -4,9 +4,9 @@ exports.CheckoutProcess = class CheckoutProcess {
 
     constructor(page){
         this.page = page;
-        this.summaryProceedChecoutBtn = page.locator("a[class='button btn btn-default standard-checkout button-medium'] span")
+        this.summaryProceedChecoutBtn = page.locator("a[class='button btn btn-default standard-checkout button-medium'] span");
         this.addressProceedChecoutBtn = page.locator("button[name='processAddress'] span")
-        this.shippingProceedChecoutBtn = page.locator("button[name='processCarrier'] span")
+        this.shippingProceedChecoutBtn = page.locator(".cart_navigation.clearfix button")
         this.ordercomment = page.locator("textarea[name='message']");
         this.productdescription = page.locator("td[class='cart_description']:visible")
         this.agreeterms = page.locator("label[for='cgv']")
