@@ -2,8 +2,8 @@
 
 // @ts-check
 const { test, expect } = require('@playwright/test');
-const { HomePage } = require('../pages/homePage');
-import { user } from './testdata';
+const { HomePage } = require('../pages/parabankHomePage');
+import { user } from '../testdata/parabankTestdata';
 
 
 test('homepage has Playwright in title and get started link linking to the intro page', async ({ page }) => {
