@@ -6,7 +6,7 @@ const { HomePage } = require('../pages/parabankHomePage');
 import { user } from '../testdata/parabankTestdata';
 
 
-test('homepage has Playwright in title and get started link linking to the intro page', async ({ page }) => {
+test.skip('homepage has Playwright in title and get started link linking to the intro page', async ({ page }) => {
   
   const homepage = new HomePage(page);
   
